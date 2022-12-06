@@ -16,7 +16,7 @@ export const ProductProvider = ({ children }) => {
     const getCategories = async () => {
       
       let categoriesData
-      await axios("https://fakestoreapi.com/products/categories").then(
+      await axios("https://mocki.io/v1/6fd1965d-3d92-42c7-a8c9-4d40a3da6224").then(
         (res) =>
           (categoriesData = res.data.map((item) =>
             item.replace(/^(.)|\s+(.)/g, (c) => c.toUpperCase())
@@ -40,7 +40,7 @@ export const ProductProvider = ({ children }) => {
           setLoading(false)
         })
       } else {
-        await axios.get(`https://fakestoreapi.com/products`).then((res) => {
+        await axios.get(`https://mocki.io/v1/d4afdff5-3cb5-4f6c-be04-e867fae9b2c5`).then((res) => {
           setProductList(res.data)
           setCategory("")
           setLoading(false)
@@ -54,7 +54,7 @@ export const ProductProvider = ({ children }) => {
     setLoading(true)
     const getProductDetail = async () => {   
       
-       productID && productID.length > 0 && await axios.get(`https://fakestoreapi.com/products/${productID}`).then(
+       productID && productID.length > 0 && await axios.get(`https://mocki.io/v1/d4afdff5-3cb5-4f6c-be04-e867fae9b2c5/${productID}`).then(
         (res) => {
           setProduct(res.data)
           setLoading(false)

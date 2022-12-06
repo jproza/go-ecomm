@@ -45,7 +45,7 @@ const Navbar = () => {
                   <div className={styles.logo}>
                     <Link className={styles.link} to="/">
                       <div className={styles.logoBox}>
-                      <h1 className={styles.logoText}>LOGO</h1>
+                      <h1 className={styles.logoText}>GO-ecomm4all</h1>
                       </div>
                     </Link>
                   </div>
