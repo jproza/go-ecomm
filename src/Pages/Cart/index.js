@@ -80,7 +80,7 @@ const Cart = () => {
             <div className={styles.bgCart}>
               <div className="flex flex-col p-4">
                 <span className="text-xl mb-4 font-semibold">
-                  Order Summary
+                   Servicios contratados
                 </span>
                 <span className="text-sm my-2 font-extralight flex">
                   Subtotal <span className="ml-auto font-normal">$ {subtotal}</span>
