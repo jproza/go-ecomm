@@ -40,7 +40,7 @@ export const ProductProvider = ({ children }) => {
           setLoading(false)
         })
       } else {
-        await axios.get(`https://mocki.io/v1/d4afdff5-3cb5-4f6c-be04-e867fae9b2c5`).then((res) => {
+        await axios.get(`https://mocki.io/v1/c398dd8b-012a-4084-b9fc-30ef84106e03`).then((res) => {
           setProductList(res.data)
           setCategory("")
           setLoading(false)
