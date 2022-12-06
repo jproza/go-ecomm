@@ -86,13 +86,13 @@ const Cart = () => {
                   Subtotal <span className="ml-auto font-normal">$ {subtotal}</span>
                 </span>
                 <span className="text-sm my-2 font-extralight flex">
-                  Shipping Estimate <span className="ml-auto font-normal">$ 5</span>
+                  comisión 1 <span className="ml-auto font-normal">$ 5</span>
                 </span>
                 <span className="text-sm my-2 font-extralight flex">
-                  Tax Estimate <span className="ml-auto font-normal">$ 5</span>
+                  comisión 2 <span className="ml-auto font-normal">$ 5</span>
                 </span>
                 <span className="text-md my-2 font-normal flex">
-                  Order Total <span className="ml-auto">$ {parseFloat(subtotal) + 10}</span>
+                  Total de la obra <span className="ml-auto">$ {parseFloat(subtotal) + 10}</span>
                 </span>
               </div>
             </div>
